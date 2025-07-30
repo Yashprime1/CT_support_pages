@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.87 24.03">
+    <defs>
+        <style>.cls-1{fill:#b5b5b5;}</style>
+    </defs>
+    <title>List Logo</title>
+    <rect class="cls-1" x="13" y="-8.94" width="6.01" height="31.87" rx="1.55" ry="1.55"
+          transform="translate(8.94 19) rotate(-90)"/>
+    <rect class="cls-1" x="13" y="0.07" width="6.01" height="31.87" rx="1.55" ry="1.55"
+          transform="translate(-0.07 28.02) rotate(-90)"/>
+    <rect class="cls-1" x="13" y="9.08" width="6.01" height="31.87" rx="1.55" ry="1.55"
+          transform="translate(-9.08 37.03) rotate(-90)"/>
+</svg>
