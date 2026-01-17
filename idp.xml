@@ -1,0 +1,25 @@
+<md:EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://lemur-1.cloud-iam.com/auth/realms/clevertap-gst-keycloak">
+<md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:KeyName>wR83SVZ6hZgs0tj1ZRk5rM7lhwstej9S3KHkR_j33ng</ds:KeyName>
+<ds:X509Data>
+<ds:X509Certificate>MIICuzCCAaMCBgGYrKYzFjANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDDBZjbGV2ZXJ0YXAtZ3N0LWtleWNsb2FrMB4XDTI1MDgxNTA3MzIwOVoXDTM1MDgxNTA3MzM0OVowITEfMB0GA1UEAwwWY2xldmVydGFwLWdzdC1rZXljbG9hazCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALfL4xZcb8YcJ4EEGVfOa7BnmFr8BlIICG1baxS7pfRKYR6XvgxuZO4v2zsT+iCWwisdBOvg/8hR0nqA1xVMhlifn4HeAyQ4KpMshbXzyIjJnlMWbeVOOqEjDb5RWOPfQNPJK9OSSXjYkYVzRY6qmzUsjLGDJMRLPomIbAY6Aj4kzFUNsbXPS/Mir00q1Loqh/B2Uk8a6wQqS/EGJUCoxUOQyMrumKd/gurbBlMTlzRqtVbIvGv1j9gnW0ja+WxaJ5D0DvWQNOFK0FavXjFyoFvxNXe/da5trqAjOjHutG6BLUdQyS1kDqVKaSxAmnwAZA0C2WQLzTf8gg/QncGhSB8CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAhUYTO7lNrv2wrshhdayR9Uzt2HX7UcpVYWGKiE0AJePgB/KKvD5asHqMuoNLqP0rtGHpqTpb1oaLkTXyu9HpbEykeFKKLzQpOAEdIq130zc+sZ0TOAJpUWQmTDIzad3PkG6UA/VEz7vYGHyYNyL5Xa0UCJ7qIXEdY0IW9gni/OoiiVdVuPVa+v6BRKmGtDe7H3d2guVOppjvcsTtaRah1ABJlV0bSkBr9yuqJGBFexgSKzC6fFeDhBJh6Bi5WV2xgtkcXXG3AbPLg/+a3P9bXesXiBjJ7NslVYpMHmCyEpiJcJRwP+iJkscrdJjb93KzAca6YErzLk++lE7rsVopFg==</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://lemur-1.cloud-iam.com/auth/realms/clevertap-gst-keycloak/protocol/saml/resolve" index="0"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lemur-1.cloud-iam.com/auth/realms/clevertap-gst-keycloak/protocol/saml"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://lemur-1.cloud-iam.com/auth/realms/clevertap-gst-keycloak/protocol/saml"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://lemur-1.cloud-iam.com/auth/realms/clevertap-gst-keycloak/protocol/saml"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://lemur-1.cloud-iam.com/auth/realms/clevertap-gst-keycloak/protocol/saml"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lemur-1.cloud-iam.com/auth/realms/clevertap-gst-keycloak/protocol/saml"/>
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://lemur-1.cloud-iam.com/auth/realms/clevertap-gst-keycloak/protocol/saml"/>
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://lemur-1.cloud-iam.com/auth/realms/clevertap-gst-keycloak/protocol/saml"/>
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://lemur-1.cloud-iam.com/auth/realms/clevertap-gst-keycloak/protocol/saml"/>
+</md:IDPSSODescriptor>
+</md:EntityDescriptor>
